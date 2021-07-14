@@ -30,6 +30,6 @@ GitHub를 통해 강좌실습내용 및 구현하는 내용을 계속해서 업�
 
 [사전직무교육가이드](https://docs.google.com/document/d/1UuVbR5j5Mb9Tj2KPfFqJadQTCYUWRZj5IpDyrSQutgQ/edit#heading=h.dr07nt7s6rwr"사전직무교육가이드")
 
-[WebPageModel_Sample](image/WebPagemodel_1.png)
+[WebPageModel_Sample](/image/WebPagemodel_1.png)
 
-<a href="a"><img src="https://github.com/kbin052/recode/blob/master/image/WebPagemodel_1.png" width="1200px" alt="image">
+<a href="a"><img src="https://https://github.com/kbin052/LectureProject/blob/recode/image/WebPagemodel_1.png" width="1200px" alt="image">
