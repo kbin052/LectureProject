@@ -30,5 +30,6 @@ GitHub를 통해 강좌실습내용 및 구현하는 내용을 계속해서 업�
 
 [사전직무교육가이드](https://docs.google.com/document/d/1UuVbR5j5Mb9Tj2KPfFqJadQTCYUWRZj5IpDyrSQutgQ/edit#heading=h.dr07nt7s6rwr"사전직무교육가이드")
 
-src="https://user-images.githubusercontent.com/70202358/125661701-28258eeb-bee4-4cf6-b649-0b03c6f68e86.png">
+<img width="940" alt="WebPagemodel_1" src="https://user-images.githubusercontent.com/70202358/125661809-e3ca0f42-9709-43ca-b17f-54521341acf3.png">
+
 
