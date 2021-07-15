@@ -8,7 +8,11 @@ import java.util.Optional;
 
 public class MemberService {
 
-    private final MemoryMemberRepository MemberRepositore = new MemoryMemberRepository();
+    private final MemoryMemberRepository MemberRepositore;
+
+    public MemberService(MemoryMemberRepository memberRepositore) {
+        MemberRepositore = memberRepositore;
+    }
 
     public long join(Member member){
        //같은 이름이 있는 중복회원은 X
