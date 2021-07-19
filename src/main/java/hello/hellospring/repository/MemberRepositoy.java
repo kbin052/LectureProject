@@ -9,7 +9,7 @@ public interface MemberRepositoy {
 
     Member save(Member member);
     Optional<Member> findById(Long id);
-    Optional<Member> findByName(String name);
+    Optional<Member> findByName(String name); // ipTional
     List<Member> findAll();
 
 }
