@@ -2,11 +2,12 @@ package hello.hellospring.service;
 
 import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
-
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
@@ -14,6 +15,8 @@ public class MemberService {
     public MemberService(MemberRepository memberRepositore) {
         this.memberRepository = memberRepositore;
     }
+
+
 
     public long join(Member member){
        //같은 이름이 있는 중복회원은 X
