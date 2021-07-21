@@ -19,18 +19,9 @@ public class MemberService {
 
 
     public long join(Member member){
-
-        Long start =System.currentTimeMillis();
-                //일일히 ms로 나오게 작업..
-                try{
-                    validateDuplicateMember(member);// 중복 회원 검증
-                    memberRepository.save(member);
-                    return member.getId();
-                }finally {
-                   long finish = System.currentTimeMillis();
-                   long timeMs = finish - start;
-                   System.out.println("Join = "+ timeMs+ "ms");
-                }
+        validateDuplicateMember(member);// 중복 회원 검증
+        memberRepository.save(member);
+        return member.getId();
     }
 
     private void validateDuplicateMember(Member member) {
