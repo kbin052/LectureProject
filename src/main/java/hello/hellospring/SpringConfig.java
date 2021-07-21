@@ -1,6 +1,6 @@
 package hello.hellospring;
 
-import hello.hellospring.repository.JdbcMemberRepository;
+import hello.hellospring.repository.JdbcTemplateMemberRepository;
 import hello.hellospring.repository.MemberRepository;
 import hello.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +27,8 @@ public class SpringConfig {
     @Bean
     public MemberRepository memberRepositoy() {
 //        return new MemoryMemberRepository();
-        return new JdbcMemberRepository(dataSource);
-    }
+//        return new JdbcMemberRepository(dataSource);
+        return new JdbcTemplateMemberRepository(dataSource);
+   }
 }
 //자바코드로 스프링 빈 등록
